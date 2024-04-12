@@ -83,12 +83,22 @@ nav a {
 }
 
 .product {
-    width: 250px;
-    border: 1px solid #ccc;
+    width: 300px; /* Incrementa el ancho del producto */
+    border: 2px solid #ccc; /* Aumenta el grosor del borde */
     padding: 10px;
     text-align: center;
     margin-bottom: 20px;
 }
+.price {
+    font-weight: bold;
+    margin-bottom: 0px;
+    border: 5px solid #daa737; /* Grosor del borde */
+    border-radius: 50px; /* Puntas redondeadas */
+    padding: 5px 60px; /* Espacio entre el borde y el texto */
+    font-size: 18px;
+    display: inline-block;
+}
+
 .product-images {
     position: relative;
     margin-bottom: 10px;
@@ -135,7 +145,7 @@ nav a {
 }
 
 .product h2 {
-    margin-top: 10px;
+    margin-top: 32px;
 }
 
 .product button {
