@@ -9,3 +9,9 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+@media screen and (max-width: 600px) {
+    .price {
+        font-size: 16px; /* Reducir el tamaño de la fuente en pantallas más pequeñas */
+        padding: 3px 6px; /* Reducir el espacio entre el borde y el texto */
+    }
+}
