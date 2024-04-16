@@ -217,3 +217,135 @@ footer {
 .contact form button:hover {
     background-color: #45a049;
 }
+/* Estilos para el carrito de compras */
+#carrito {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+}
+
+.cart-item img {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.item-info h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.item-info p {
+    margin: 5px 0;
+    color: #666;
+    font-size: 14px;
+}
+
+.item-info button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.item-info h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.item-info p {
+    margin: 5px 0;
+    color: #666;
+    font-size: 14px;
+}
+
+.item-info button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.item-info button:hover {
+    background-color: #c0392b;
+}
+#total {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#total h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+#total p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #666;
+}
+#total button {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#total button:hover {
+    background-color: #27ae60;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 7px 0;
+    font-size: 28px;
+}
+.payment-icons {
+    margin-top: 40px;
+}
+
+.payment-icons i {
+    font-size: 48px; /* Cambia el tamaño de los iconos */
+    color: blue; /* Cambia el color de los iconos */
+    transition: transform 0.2s; /* Agrega una transición suave al efecto de aumento */
+}
+
+.payment-icons i:hover {
+    transform: scale(1.4); /* Aumenta el tamaño al pasar el cursor */
+}
