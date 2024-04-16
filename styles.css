@@ -347,5 +347,5 @@ footer p {
 }
 
 .payment-icons i:hover {
-    transform: scale(1.4); /* Aumenta el tamaño al pasar el cursor */
+    transform: scale(1.2); /* Aumenta el tamaño al pasar el cursor */
 }
