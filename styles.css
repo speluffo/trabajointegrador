@@ -139,10 +139,15 @@ nav a {
 .main-image {
     z-index: 1;
 }
-
 .product img {
     max-width: 100%;
     height: auto;
+    border-radius: 10px; /* Agrega esquinas redondeadas */
+    transition: transform 0.3s, border-radius 0.3s; /* Agrega transición al agrandar y redondear */
+}
+.product img:hover {
+    transform: scale(2.2); /* Agranda la imagen al pasar el mouse */
+    border-radius: 20px; /* Aumenta el radio de las esquinas al pasar el mouse */
 }
 
 .product h2 {
