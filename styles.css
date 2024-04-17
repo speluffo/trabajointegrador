@@ -245,6 +245,19 @@ main {
 .product button:hover {
     background-color: #45a049;
 }
+.product:hover h2 {
+  
+    transform: scale(1.2); /* Ajusta el valor de escala según sea necesario */
+    
+
+    transition: transform 0.3s ease; /* Agrega una transición suave */
+}
+#categoriasMenu li:hover a {
+
+    transform: scale(1.2); /* Ajusta el valor de escala según sea necesario */
+
+    transition: transform 0.3s ease; /* Agrega una transición suave */
+}
 
 /* Estilos para el footer */
 footer {
