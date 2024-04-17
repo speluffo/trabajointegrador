@@ -118,7 +118,6 @@ main {
     color: rgb(58, 55, 55);
     text-shadow: 4px 4px 8px rgba(1, 5, 5, 0.5);
     margin-top: 50px; /* Reducir el margen superior para que el h2 quede más cerca de las imágenes */
-    font: size 20px;;
 }
 
 #categoriasMenu nav ul {
