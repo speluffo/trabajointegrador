@@ -115,6 +115,10 @@ main {
     width: 200px; /* Ajusta el ancho según sea necesario */
     padding: 20px;
     background-color:#c3edf3; /* Color de fondo del menú */
+    color: rgb(58, 55, 55);
+    text-shadow: 4px 4px 8px rgba(1, 5, 5, 0.5);
+    margin-top: 50px; /* Reducir el margen superior para que el h2 quede más cerca de las imágenes */
+    font: size 20px;;
 }
 
 #categoriasMenu nav ul {
@@ -155,7 +159,7 @@ main {
 .product h2 {
     
     color: rgb(58, 55, 55);
-    text-shadow: 2px 2px 4px rgba(1, 5, 5, 0.5);
+    text-shadow: 4px 4px 8px rgba(1, 5, 5, 0.5);
     margin-top: 50px; /* Reducir el margen superior para que el h2 quede más cerca de las imágenes */
 }
 
