@@ -1,5 +1,6 @@
 /* Estilos generales */
 body {
+    background-color: #c3edf3;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -52,6 +53,60 @@ nav a {
     text-decoration: none;
 }
 
+main {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact, .location {
+    max-width: 800px;
+    margin: 0 auto 50px; /* Agregamos margen inferior para separar el footer */
+}
+
+.contact h2, .location h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.contact form div {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.contact form label {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact form input[type="text"],
+.contact form input[type="email"],
+.contact form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.contact form button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.location iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+}
+
 /* Estilos para el menú de categorías */
 #categoriasMenu {
     position: center;
@@ -59,7 +114,7 @@ nav a {
     left: 0;
     width: 200px; /* Ajusta el ancho según sea necesario */
     padding: 20px;
-    background-color: #f2f2f2; /* Color de fondo del menú */
+    background-color:#c3edf3; /* Color de fondo del menú */
 }
 
 #categoriasMenu nav ul {
@@ -69,17 +124,19 @@ nav a {
 }
 
 #categoriasMenu nav ul li {
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 
 #categoriasMenu nav ul li a {
-    text-decoration: none;
+    text-decoration:dotted ;
     color: #333;
     font-weight: bold;
+    font-size: x-large;
 }
 
 /* Estilos para los productos destacados */
 #productosDestacados {
+    background-color: #c3edf3;;
     display: flex;
     justify-content: space-around;
     padding: 20px;
@@ -88,7 +145,7 @@ nav a {
 
 .product {
     width: 300px; /* Ajusta el ancho del producto */
-    border: 2px solid #ccc; /* Aumenta el grosor del borde */
+    border: 2px solid #88b422; /* Aumenta el grosor del borde */
     padding: 10px;
     text-align: center;
     margin-bottom: 20px;
@@ -105,7 +162,7 @@ nav a {
 .price {
     font-weight: bold;
     margin-bottom: 10px;
-    border: 5px solid #ccc;
+    border: 5px solid #cccccc;
     border-radius: 10px;
     padding: 5px 10px;
     font-size: 18px;
@@ -251,4 +308,17 @@ footer p {
 
 .payment-icons i {
     margin-right: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+}
+
+footer p {
+    font-size: 18px;
+    margin: 7px 0;
 }
