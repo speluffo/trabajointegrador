@@ -10,3 +10,12 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
+document.addEventListener("DOMContentLoaded", function() {
+    var categoriasMenu = document.getElementById("categoriasMenu");
+
+    document.addEventListener("mousemove", function(event) {
+        var posX = event.clientX;
+        var posY = event.clientY;
+        categoriasMenu.style.transform = "translate(" + posX + "px, " + posY + "px)";
+    });
+});
