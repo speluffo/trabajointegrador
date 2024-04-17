@@ -19,9 +19,9 @@ header img {
     height: auto;
 }
 
-h1, h2 {
+h1 {
     position: absolute;
-    top: 50%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -29,11 +29,11 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 128px;
+    font-size: 125px;
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 26px;
 }
 
 nav ul {
@@ -95,6 +95,13 @@ nav a {
     display: inline-block; /* Alinea los productos en línea */
 }
 
+.product h2 {
+    
+    color: rgb(58, 55, 55);
+    text-shadow: 2px 2px 4px rgba(1, 5, 5, 0.5);
+    margin-top: 50px; /* Reducir el margen superior para que el h2 quede más cerca de las imágenes */
+}
+
 .price {
     font-weight: bold;
     margin-bottom: 10px;
@@ -111,6 +118,7 @@ nav a {
 }
 
 .product-images img {
+    
     max-width: 100%;
     height: auto;
     display: block;
@@ -155,12 +163,15 @@ nav a {
 }
 
 .product img:hover {
+    z-index: 9999; /* Asegura que la imagen agrandada esté por encima de las otras */
     transform: scale(2.2); /* Agranda la imagen al pasar el mouse */
-    border-radius: 20px; /* Aumenta el radio de las esquinas al pasar el mouse */
+    border-radius: 2px; /* Aumenta el radio de las esquinas al pasar el mouse */
+
 }
 
 .product h2 {
-    margin-top: 32px;
+    position: relative; /* Cambiar a posición relativa */
+    z-index: 2; /* Asegurar que el h2 esté por encima de las miniaturas */
 }
 
 .product button {
