@@ -260,17 +260,22 @@ main {
 }
 
 /* Estilos para el footer */
+
+footer p {
+    margin: 7px 0;
+    font-size: 28px;
+    font-size: 18px;
+    margin: 7px 0;
+}
+}
 footer {
     background-color: #333;
     color: #fff;
     padding: 20px;
     text-align: center;
+    clear: both;
 }
 
-footer p {
-    margin: 7px 0;
-    font-size: 28px;
-}
 #carrito {
     margin: 50px auto; /* Ajusta el margen para centrar horizontalmente */
     max-width: 800px; /* Establece un ancho máximo para el carrito */
@@ -324,17 +329,4 @@ footer p {
 
 .payment-icons i {
     margin-right: 10px;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    clear: both;
-}
-
-footer p {
-    font-size: 18px;
-    margin: 7px 0;
 }
